@@ -80,7 +80,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($nameErr) && empty($emailErr) && empty($messageErr)){
         // Recipient email address
         // this should be <username>@username.gc-webhosting.nl
-        $to = 'lkorbee@lkorbee.gc-webhosting.nl';
+        $to = 'jkolkman@jkolkman.gc-webhosting.nl';
         
         // Create email headers
         $headers = 'From: '. $email . "\r\n" .
